@@ -24,11 +24,16 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 30px 1px rgba(11,0,0.1);
     overflow: hidden;
-
 }
 
 .quiz-header {
     padding: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+
+    margin: 0;
 }
 
 ul {
@@ -36,12 +41,23 @@ ul {
     padding: 0;
 }
 
+ul li {
+    font-size: 1.3rem;
+    margin:  1rem 0;
+}
+
 button {
     background-color: #9b59b6;
     display: block;
     border: none;
     font-size: 1.3rem;
+    cursor: pointer;
     width: 100%;
     padding: 1rem;
     font-family: inherit;
+}
+
+button:hover {
+    background-color: #7a3496;
+    color: rgb(255, 255, 255);
 }
